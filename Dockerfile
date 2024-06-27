@@ -10,8 +10,7 @@ WORKDIR /app/
 
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
-# تعريف المنفذ الذي يعمل عليه التطبيق
 EXPOSE 8000
 
-# الأمر لتشغيل التطبيق
+
 CMD bash start
