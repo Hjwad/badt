@@ -9,4 +9,8 @@ COPY . /app/
 WORKDIR /app/
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
+# Expose the port your app runs on
+EXPOSE 8000
 
+# Command to run your application
+CMD [ "python3", "ZelzalMusic" ]
