@@ -7,10 +7,11 @@ RUN apt-get update \
 
 COPY . /app/
 WORKDIR /app/
+
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
-# Expose the port your app runs on
+# تعريف المنفذ الذي يعمل عليه التطبيق
 EXPOSE 8000
 
-# Command to run your application
+# الأمر لتشغيل التطبيق
 CMD [ "python3", "ZelzalMusic" ]
