@@ -14,4 +14,4 @@ RUN pip3 install --no-cache-dir -U -r requirements.txt
 EXPOSE 8000
 
 # الأمر لتشغيل التطبيق
-CMD [ "python3", "ZelzalMusic" ]
+CMD bash start
