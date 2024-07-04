@@ -23,5 +23,3 @@ unidecode
 yt-dlp
 youtube-search
 youtube-search-python
-gunicorn==20.1.0
-Flask
