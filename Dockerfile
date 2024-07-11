@@ -10,7 +10,7 @@ WORKDIR /app/
 
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
-EXPOSE 8000
+EXPOSE 8083
 
 
 CMD bash start
