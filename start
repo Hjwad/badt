@@ -1,2 +1,2 @@
-gunicorn -b 0.0.0.0:8000 app:app --daemon
+gunicorn -b 0.0.0.0:8083 app:app --daemon
 python -m ZelzalMusic
